@@ -3,7 +3,12 @@ import React, { Component } from 'react';
 
 class App extends React.Component {
   render() {
-    return <h1>Hello,world!</h1>
+    return (
+      <>
+        <label htmlFor="bar">bar</label>
+       <input type="text" onClick ={() => {console.log("I am clikecd.")}} />
+     </>
+    )
   }
 }
 
